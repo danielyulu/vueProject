@@ -1,0 +1,164 @@
+#detail i{
+  vertical-align:middle;
+  font-size:0.666667rem;
+}
+
+#detail a{
+  color:#000;
+}
+
+#goods_head{
+    // display:flex;
+    // justify-content: space-between;
+    position:relative;
+    background:#fff;
+    height:1.066667rem;
+}
+.goods_head_l i{
+    position:absolute;
+    top:0.266667rem;
+    left:0.56rem;
+}
+.goods_head_r{
+    position:absolute;
+    top:0.266667rem;
+    right:0.32rem;
+}
+.goods_head_r i:first-child{
+    margin-right:0.666667rem;
+}
+
+#goods_main{
+    justify-content:center;
+    width:100%;
+    overflow:hidden;
+}
+#goods_main img{
+    height:9.28rem;
+}
+.goods_foot_t{
+    text-align: center; 
+}
+.goods_foot_t p{
+    font-size:26px;
+
+}
+.goods_foot_t span{
+    text-decoration: line-through;
+    color:#ccc;
+    font-size:0.346667rem;
+}
+.goods_foot_t b{
+    color:#000;
+    font-size:0.346667rem;
+    margin:0.066667rem;
+}
+.goods_foot_c {
+    display:flex;
+    justify-content: space-around;
+    height:1.12rem; 
+    border-bottom:1px solid #E4E4E4;   
+}
+.goods_foot_c div{
+    margin-top:0.133333rem;
+}
+.goods_foot_c span{
+    font-size:0.293333rem;
+}
+#goods_foots{
+    position:fixed;
+    width:100%;
+    height:2.106667rem;
+    background:#fff;
+    bottom:0;
+    z-index: 1;
+}
+.shops{
+    text-align: center;
+    line-height:1.28rem;
+    color:#fff;
+    font-size:0.4rem;
+    width:7.786667rem;
+    height:1.28rem;
+    margin:0 auto;
+    margin-top:0.266667rem;
+    background:#23232F;
+}
+.propertys{
+    height:2.8rem;
+    background:#F5F5F5;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.prts{
+    height: 2.106667rem;
+
+}
+.propertys span{
+    height:1.2rem;
+    background:#fff;
+    line-height:1.2rem;
+    padding-left:0.426667rem;
+    font-size:0.373333rem;
+}
+.messages{
+    font-size:0.346667rem;
+}
+.messages span{
+    height:1.24rem;
+    line-height:1.24rem;
+    display:block;
+    border-bottom:0.013333rem solid #E6E6E6;
+    padding-left: 0.426667rem;
+}
+.messages tr{
+    font-weight:bold;
+    height:1.2rem;
+}
+.messages td{
+    padding-left: 0.933333rem;
+    font-weight:normal;
+}
+.messages ul li{
+    padding-left:1.6rem;
+}
+.messages_b{
+    font-size:0.346667rem;
+}
+.messages_b p{
+    height:1.2rem;
+    line-height:1.2rem;
+    padding-left:0.453333rem;
+    border-top:0.16rem solid #F5F5F5;
+    border-bottom:0.013333rem solid #ccc;
+}
+.messages_b div{
+    margin-top:0.4rem;
+}
+.messages_b div span:first-child{
+    padding: 0 0.2rem 0 0.453333rem;
+    font-weight:bold;
+}
+.popup{
+    display:none;
+    width:300px;
+    height:1.066667rem;
+    background:#000;
+    position:fixed;
+    top:70%;
+    left:250px;
+    text-align: center;
+    line-height:1.066667rem;
+    font-size:0.4rem;
+    border-radius:5%;
+    color:#fff;
+}
+.flew{
+    position:fixed;
+    top:90%;
+    right:50%;
+    width:50px;
+    height:50px;
+    background:black;
+}

@@ -1,0 +1,71 @@
+.settingbox{
+
+    .header{
+
+        font-size: 43px;
+
+        margin-bottom: 21px;
+
+        a{
+
+            margin-right: 218px;
+        }
+    }
+
+    img{
+
+        width: 100%;
+
+        border-bottom: 15px solid #ccc;
+    }
+
+    .settingList,.settingList1{
+
+        padding: 33px;
+
+        border-bottom: 1px solid #ccc;
+
+        margin-bottom: 58px;
+
+        .settingList_wz{
+
+            font-size: 27px;
+
+            display: flex;
+
+            justify-content:space-between;
+
+            span:last-child{
+
+                color:#BEBEBE;
+            }
+        }
+    }
+
+    .settingList2{
+
+        margin-bottom: 0;
+    }
+
+    .settingList3{
+
+        border-bottom: 14px solid #ccc;
+    }
+
+    #exit{
+
+        width: 100%;
+
+        font-size: 27px;
+
+        text-align: center;
+        
+        display: inline-block;
+
+        padding: 33px;
+
+        color:black;
+
+        background-color: #ccc
+    }
+}

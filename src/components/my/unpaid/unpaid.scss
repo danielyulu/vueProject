@@ -1,0 +1,36 @@
+#head{
+    li{
+        float:left;
+        height:1.2rem;
+        line-height:1.2rem;
+    }
+    li:nth-child(1){
+        margin-left:0.413333rem;
+    }
+    li:nth-child(2){
+        margin-left:3.453333rem;
+        font-size:35px;
+    }
+    a{
+        color:#000;
+    }
+    i{
+        vertical-align:middle;
+    }
+}
+#nav{
+    ul{
+        display:flex;
+        li{
+            flex:1;
+            text-align: center;
+            font-size:0.346667rem;
+            line-height:1.173333rem;
+        }
+    }
+}
+.received{
+    float:right;
+    font-size:0.4rem;
+    color:#ddd;
+}

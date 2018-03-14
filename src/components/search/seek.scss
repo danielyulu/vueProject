@@ -1,0 +1,58 @@
+.toseek{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    position:fixed;
+    z-index:10;
+    width:100%;
+    background:#fff;
+    .se_header{
+        // height:1.266667rem;
+        border-bottom:0.013333rem solid #999;
+        // background:yellow;
+        .h_top{
+            i{
+                font-size:0.666667rem;
+                margin:0.24rem 0.266667rem;
+            }
+
+            label{
+                width:8.666667rem;
+                float:right;
+                margin-top:0.08rem;
+                margin-right:0.133333rem;
+                border-bottom:0.013333rem solid #000;
+                i{
+                    font-size:0.466667rem;
+                    display:inline-block;
+                    border-left:0.013333rem solid #ccc;
+                    padding:0 0.066667rem;
+                    float:left;
+                }
+                input{
+                    width:6.666667rem;
+                    float:left;
+                    height:0.666667rem;
+                    margin-top:0.093333rem;
+                    outline-style:none;
+                    font-size:0.4rem;
+                }
+            }
+        }
+
+    }
+    .se_main{
+        flex:1;
+        overflow-x:hidden;
+
+    }
+    .se_main>span{
+        font-size:0.4rem;
+        padding:2.666667rem;
+        position:absolute;
+        z-index:-1;
+    }
+}
+#main ul{
+    background:#fff;
+}

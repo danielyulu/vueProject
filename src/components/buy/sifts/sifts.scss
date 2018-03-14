@@ -1,0 +1,45 @@
+#yl_sift i{
+  vertical-align:middle;
+}
+
+#yl_sift a{
+  color:#000;
+}
+#sift{
+    display:flex;
+    justify-content:space-between;
+    background:#F8F8F8;
+    height:1.12rem;
+}
+.sift_l{
+    height:1.12rem;
+}
+.sift_l span{
+    line-height:1.12rem;
+    font-size:0.293333rem;
+    margin-left:0.426667rem;
+}
+.sift_r span{
+    line-height:1.12rem;
+    font-size:0.293333rem;
+    margin-right:0.96rem;
+}
+#main ul li img{
+    width: 350px;
+}
+#main ul{
+    display:flex;
+    flex-wrap:wrap;
+    overflow:hidden;
+    padding-left:15px;
+}
+#main ul li{
+//   text-align: center
+
+    width: 50%;
+    margin-top: 25px;
+}
+#main ul li p,#main ul li span{
+    font-size:0.306667rem;
+}
+

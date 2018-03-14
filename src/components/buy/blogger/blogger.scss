@@ -1,0 +1,32 @@
+.blogger{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    position:fixed;
+    z-index:10;
+    img{
+        width:100%;
+    }
+}
+.b_header{
+    font-size:0.373333rem;
+    padding-top:0.333333rem;
+    height:1.173333rem;
+    border-bottom:0.026667rem solid #ccc;
+    display:flex;
+    justify-content:space-between;
+    span{
+        display:block;
+        position:relative;
+        width:0.533333rem;
+        margin:0 0.266667rem;
+        i{
+            left:0;
+            font-size:0.373333rem;
+        }
+    }
+   }
+.b_main{
+    flex:1;
+    overflow-x:hidden;
+}

@@ -1,0 +1,190 @@
+#sellbox{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    height: 16.333333rem;
+}
+
+//卖出页面的头部的样式
+.sellhead{
+
+        height:1.2rem;
+        i{
+            font-size: 0.56rem;
+            vertical-align: middle;
+            
+        }
+        span{
+            vertical-align: middle;
+        }
+        
+        ul{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        li{
+            float: left;
+                
+        }
+        li:nth-child(1){
+            margin-left: 0.346667rem;
+        }
+        li:nth-child(2){
+            font-size:0.56rem;
+            margin-left:-1.403333rem;
+            span{
+                display: block;
+                width: 0.48rem;
+                height: 0.48rem;
+                border-radius: 50%;
+                background: #000;
+                color: #fff;
+                float: left;
+                margin-right:0.133333rem;
+                font-size:0.32rem;
+                text-align: center
+            }
+        }
+        .Nav0{
+            background: #fff;
+            border-bottom: 1px solid #EFEFEF;
+            li:nth-child(2){
+                margin: 0 2rem;
+                span{
+                    background: none;
+                    color: #333333;
+                    width:100%;
+                    letter-spacing: 0.066666rem;
+                }
+            }
+            li:nth-child(3){
+                span{
+                    color: darkred;
+                    font-size: 0.32rem;
+                }
+                i{
+                    color: darkred;
+                }
+            }
+        }
+    }
+//卖出页面的内容部分
+.sellcontent{
+    flex: 1;
+    overflow-x: hidden;
+    .navbox{
+        background-color: #F5F5F5;
+        padding-top: 0.72rem;
+        display: flex;
+        justify-content: space-between;
+        li{
+            flex: 24.8%;
+            text-align: center;
+            i{
+                font-size: 1rem;   
+            }
+        }
+        span{
+            display: block;
+            font-size: 0.326666rem;
+            margin:0.373333rem 0 ;
+            text-align: center;
+        }
+    }
+    .scib{
+        display: flex;
+        flex-direction: column;
+        p{
+          align-self: center; 
+          font-size: 0.3rem; 
+          
+        }
+        .p1{
+            background-color: #F99257;
+            color:#FFECD7 ;
+            font-size:0.4rem ;
+            width: 5.333333rem;
+            text-align: center;
+            
+            border-radius: 40%;
+            i{
+                color:#FFECD7 ;
+            }
+        }
+        .btn{
+            width: 5.333333rem;
+            height: 1.72rem;
+            font-size: 0.513333rem;
+            background-color:#FF5C01 ;
+            color: #FFFCED;
+            text-align: center;
+            line-height: 1.72rem;
+            
+            margin-top: 1.333333rem;
+            margin-bottom: 0.4rem;
+        }
+    }
+}
+//卖出教学页面轮播图样式
+.swiper-box{
+    height: 10rem;
+    padding:0.533333rem 0;
+    img{
+        width: 7rem;
+    }
+    img:nth-child(2n){
+        height: 9.946666rem;
+    }
+    img:nth-child(2n-1){
+        height: 9.866666rem;
+    }
+}
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    .swiper-slide{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .swiper-pagination-bullet{
+        width: 0.433333rem;
+        height: 0.433333rem;
+        
+    }
+}
+//卖出教学页面的内容
+.word-box{
+    padding-left: 0.533333rem;
+    color: #3C3C3C;
+    .title{
+        padding-bottom: 0.2rem;
+        border-bottom: 0.04rem solid #EFEFEF;
+        h2{
+            font-size: 0.533333rem;
+            padding: 0.066666rem 0;
+        }
+    }
+    .con{
+        padding: 0.433333rem 0;
+        p{
+            font-size: 0.28rem;
+            span{
+                display: inline-block;
+                font-size: 0.533333rem;
+                font-style: italic;
+                margin-right: 0.133333rem;
+                color: #FFC800;
+            }
+        }
+        div{
+            padding-left: 0.833333rem;
+            font-size: 0.226666rem;
+            width: 6.99rem;
+        }
+    }
+}
